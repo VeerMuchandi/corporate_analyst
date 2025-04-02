@@ -27,11 +27,17 @@ sequencer_agent = SequentialAgent(
     ],
 )
 
+ROOT_AGENT_PROMPT = """
+Help the user generate a report corporate analysis reports for the 
+company they're searching for using the agents at your disposal.
+Prompt the user to supply the information needed by the sub agents.
+""".strip()
+
 root_agent = Agent(
     model="gemini-2.0-flash",
     name="corporate_analyst_agent",
     description="Analyzes a corporation given its ticker",
-    instruction="Help the user generate a report using the agents at your disposal.",
+    instruction=ROOT_AGENT_PROMPT,
     sub_agents=[
         sequencer_agent,
     ],
