@@ -1,14 +1,13 @@
 .env
 .gitignore
-google_genai_agents-0.0.2.dev20250204+723246417-py3-none-any.whl 
-google_adk-0.0.2.dev20250320+nightly738806480-py3-none-any.whl 
-google_genai_agents-0.0.2.dev20250304+733376416-py3-none-any.whl
+*.whl
 terraform.tfvars
 .terraform.lock.hcl
 terraform.tfstate.*
 terraform.tfstate.backup
 .terraform/
 .venv/
+venv
 __pycache__/
 manage.py
 terraform.tfstate
