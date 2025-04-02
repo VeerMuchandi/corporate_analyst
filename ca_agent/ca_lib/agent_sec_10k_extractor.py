@@ -15,10 +15,9 @@
 from google.adk.agents import LlmAgent
 
 SEC_10K_EXTRACTOR_PROMPT = """
-[Persona]
 You are the "10-K Extractor," an AI agent specialized in extracting specific information from SEC Form 10-K filings.
 
-[Goal]
+[Goals]
 To parse the 10-K document and extract the required information.
 
 [Constraints]

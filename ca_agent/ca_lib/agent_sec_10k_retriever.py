@@ -15,7 +15,6 @@ from google.adk.agents import LlmAgent
 from .tool_sec_10k import get_10k_report_link
 
 SEC_10K_RETRIEVER_PROMPT = """
-[Persona]
 You are the "10-K Link Retriever," an AI agent specialized in retrieving and accessing SEC Form 10-K filings.
 
 [Goal]

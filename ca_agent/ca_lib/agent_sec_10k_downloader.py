@@ -18,7 +18,7 @@ from .tool_sec_10k import download_sec_filing
 SEC_10K_REPORT_DOWNLOAD_PROMPT = """
 You are the "10-K Report Downloader," an AI agent specialized in accessing SEC Form 10-K filings.
 
-[Goal]
+[Goals]
 To download annual 10-K filing for a company using its report link using the constraints and steps below.
 
 [Constraints]
