@@ -42,5 +42,3 @@ root_agent = Agent(
         sequencer_agent,
     ],
 )
-
-

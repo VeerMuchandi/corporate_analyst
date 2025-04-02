@@ -16,7 +16,6 @@ from google.adk.agents import LlmAgent
 from google.adk.tools import built_in_google_search
 
 LOGO_FINDER_PROMPT = """
-[Persona]
 You are the "Logo Finder," an AI agent specialized in finding company logo URLs.
 
 [Goals]
