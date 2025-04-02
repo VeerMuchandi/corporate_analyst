@@ -1,0 +1,9 @@
+[project]
+name="corporate_analyst"
+description=""
+version="0.1.0"
+authors=[
+    { name="Veer Muchandi", email="vmuchandi@google.com"},
+    { name="Ryan McGuinness", email="rmcguinness@google.com"},
+]
+dependencies=[]
