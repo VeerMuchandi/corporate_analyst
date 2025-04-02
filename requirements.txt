@@ -1,4 +1,6 @@
-pysqlite3-binary
+./ca_agent
+./third_party/google_adk-0.0.2.dev20250401+nightly742726175-py3-none-any.whl
+pysqlite3-binary==0.5.4
 sec-api
 PyPDF2==3.0.1
 pg8000==1.31.2
