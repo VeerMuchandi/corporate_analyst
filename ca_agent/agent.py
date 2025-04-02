@@ -15,6 +15,7 @@ from .ca_lib import (
 
 sequencer_agent = SequentialAgent(
     name="sequencer_agent",
+    description="The agent call orchestrator",
     sub_agents=[
         ticker_finder,
         sec_10k_retriever,
@@ -28,8 +29,8 @@ sequencer_agent = SequentialAgent(
 )
 
 ROOT_AGENT_PROMPT = """
-Help the user generate a report corporate analysis reports for the 
-company they're searching for using the agents at your disposal.
+Help the user generate a corporate analysis report for the 
+company the user is searching for using the agents at your disposal.
 Prompt the user to supply the information needed by the sub agents.
 """.strip()
 
